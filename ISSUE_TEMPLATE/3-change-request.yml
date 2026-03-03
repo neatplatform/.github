@@ -1,0 +1,47 @@
+name: Change Request
+description: Suggest a change to an existing implementation in the project.
+title: "[CHNG]: "
+assignees: []
+labels:
+  - enhancement
+  - triage
+  - needs validation
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide a clear explanation for why this change is proposed.
+        Describe any improvements to performance, memory usage, maintainability, security, or other areas.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Please provide any relevant information on why this change is needed.
+      placeholder: Example context
+    validations:
+      required: false
+  - type: textarea
+    id: existing-implementation
+    attributes:
+      label: Existing Implementation
+      description: Explain the current implementation you want to change, including any relevant context, code references, or resources.
+      placeholder: Example implementation
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Proposed Change
+      description: Describe the specific change you are proposing in detail.
+      placeholder: Example change
+    validations:
+      required: true
+  - type: textarea
+    id: improvements
+    attributes:
+      label: Improvements
+      description: Describe how this change might impact the existing experience, including performance, maintainability, security, or other considerations.
+      placeholder: Example improvement
+    validations:
+      required: false
