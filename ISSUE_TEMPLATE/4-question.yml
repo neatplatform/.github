@@ -1,0 +1,22 @@
+name: Question
+description: Ask a question about the project.
+title: "[Q]: "
+assignees: []
+labels:
+  - question
+  - triage
+type: Support
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Give detailed context for your question and be as specific as you can.
+        Add relevant code samples, error messages, or documentation links where applicable.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please provide a detailed description of your question.
+      placeholder: Example question
+    validations:
+      required: true

@@ -1,0 +1,53 @@
+name: Bug Report
+description: Report a bug for the project.
+title: "[BUG]: "
+assignees: []
+labels:
+  - bug
+  - triage
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out all sections with as much detail as possible.
+        Prioritize a minimal, step-by-step reproduction case to speed up the fix.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Provide information about the environment, versions, configurations, and any relevant context.
+      value: |
+        | **Attribute** | **Value** |
+        |---------------|-----------|
+        | Attribute 1   | `value 1` |
+        | Attribute 2   | `value 2` |
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps To Reproduce
+      description: List the steps to reproduce the issue, including any required inputs or conditions.
+      value: |
+        1. Step one
+        2. Step two
+        3. Step three
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen when following the steps above.
+      placeholder: It should ...
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: Describe what happened when following the steps above. Include any error messages, logs, or screenshots if applicable.
+      placeholder: Instead, it ...
+    validations:
+      required: true

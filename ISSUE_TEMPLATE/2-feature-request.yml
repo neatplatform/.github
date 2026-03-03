@@ -1,0 +1,63 @@
+name: Feature Request
+description: Request a new feature for the project.
+title: "[FEAT]: "
+assignees: []
+labels:
+  - feature
+  - triage
+  - needs validation
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide a clear, detailed description of the proposed feature.
+        Include the problem it solves, any relevant use cases, and potential impacts on existing experience.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Please provide any prerequisites, dependencies, or background information important for understanding this feature request.
+      placeholder: Example context
+    validations:
+      required: false
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem Statement
+      description: Describe the specific problem or use case that this feature addresses.
+      placeholder: Example problem
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the proposed solution to the problem statement in detail.
+      placeholder: Example solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: Alternatives Considered
+      description: Outline any alternative solutions or approaches that were considered, and explain the reasons they were not selected.
+      placeholder: Example alternative
+    validations:
+      required: false
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Describe how this feature might impact the existing experience, including breaking changes, performance implications, or other considerations.
+      placeholder: Example impact
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Define clear acceptance criteria that must be met for this feature to be considered complete.
+      placeholder: Example criteria
+    validations:
+      required: false
