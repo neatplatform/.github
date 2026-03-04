@@ -1,0 +1,13 @@
+Issue Types:
+  - name: Bug
+    description: An unexpected problem or behavior
+    color: Red
+  - name: Feature
+    description: A request, idea, or new functionality
+    color: Green
+  - name: Support
+    description: A question or request for help
+    color: Blue
+  - name: Task
+    description: A specific piece of work
+    color: Yellow

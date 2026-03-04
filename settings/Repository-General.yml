@@ -1,0 +1,37 @@
+Repository default branch: main
+Commit signoff: No policy
+Releases: All repositories
+Repository Labels:
+  - name: triage
+    description: Needs to be triaged
+    color: "#8A6DD6"
+  - name: duplicate
+    description: Issue or pull request already exists
+    color: "#A9B98C"
+  - name: needs validation
+    description: Further validation and verification are required
+    color: "#D4D83F"
+  - name: invalid
+    description: This does not seem right
+    color: "#F29D6D"
+  - name: bug
+    description: Something not working as expected
+    color: "#A60C20"
+  - name: feature
+    description: New feature or capability
+    color: "#09C66C"
+  - name: enhancement
+    description: Improvements and modifications
+    color: "#12717A"
+  - name: documentation
+    description: Improvements or additions to documentation
+    color: "#0D75C0"
+  - name: breaking
+    description: Breaking change
+    color: "#F681D7"
+  - name: question
+    description: Further information is requested
+    color: "#E3AEBC"
+  - name: tech debt
+    description: Quality and technical debt
+    color: "#A1887F"

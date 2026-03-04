@@ -1,0 +1,33 @@
+Rulsets:
+  Branch rulesets:
+    - Name: Protect default branch
+      Enforcement: active
+      Bypass list:
+      Target repositories: All repositories
+      Target branches: Default
+      Rules:
+        Restrict creation: false
+        Restrict update: false
+        Restrict deletions: true
+        Require linear history: true
+        Require signed commits: true
+        Require a pull request before merging:
+          Enabled: true
+          Required approvals: 1
+          Dismiss stale pull request approvals: true
+          Require review from specific teams: false
+          Require review from Code Owners: false
+          Require approval of the most recent reviewable push: false
+          Require conversation resolution before merging: true
+          Allowed merge methods: [ Squash, Rebase ]
+        Require status checks to pass:
+          Enabled: true
+          Require branches to be up to date before merging: true
+        Block force pushes: true
+        Require workflows to pass before merging: false
+        Require code scanning results: false
+        Require code quality results: false
+        Automatically request Copilot code review: false
+      Restrictions:
+        Restrict commit metadata: false
+        Restrict branch names: false
