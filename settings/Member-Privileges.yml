@@ -1,0 +1,25 @@
+Member Privileges:
+  Base permissions: Read
+  Repository creation:
+    Public: true
+    Private: true
+  Repository forking:
+    Allow forking of private repositories: false
+  Repository discussions:
+    Allow users with read access to create discussions: true
+  Projects base permissions: Write
+  Pages creation:
+    Public: false
+    Private: false
+  App access requests: Members only
+  GitHub Apps:
+    Allow repository admins to install GitHub Apps: false
+  Admin repository permissions:
+    Repository visibility change:
+      Allow members to change repository visibilities: false
+    Repository deletion and transfer:
+      Allow members to delete or transfer repositories: false
+    Issue deletion:
+      Allow repository administrators to delete issues: true
+    Member team permissions:
+      Allow members to create teams: false
