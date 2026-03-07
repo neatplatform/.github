@@ -1,8 +1,1 @@
 Advanced Security:
-  Private vulnerability reporting: Enable
-  Dependency graph: Enable
-  Code scanning:
-    CodeQL analysis: Default
-  Secret Protection:
-    Secret scanning: Enable
-    Push protection: Enable
