@@ -5,7 +5,6 @@ It provides common workflows, issue and pull request templates, and community he
 
 ## Resources
 
-  - [Reuse workflows](https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows)
   - [Customizing your organization's profile](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
   - [Issue and PR Templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests)
   - [Healthy Contributions](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions)
