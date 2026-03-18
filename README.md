@@ -1,7 +1,8 @@
 # .github
 
 This repository stores shared GitHub configurations and default files used across the organization.
-It provides common workflows, issue and pull request templates, and community health files to ensure consistency and reduce duplication across repositories.
+It provides common workflows, issue and pull request templates, and community health files
+to ensure consistency and reduce duplication across repositories.
 
 ## Resources
 
